@@ -1,0 +1,6 @@
+framework module Pods_SwiftUi_CartoonList_SwiftUi_CartoonListUITests {
+  umbrella header "Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

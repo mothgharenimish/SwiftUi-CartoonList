@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		068435E92D7E1B4400D38508 /* Cartoon Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068435E82D7E1B4400D38508 /* Cartoon Card.swift */; };
+		07E53C8AC6514078A17B0CC8 /* Pods_SwiftUi_CartoonList_SwiftUi_CartoonListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F40BF63A4DF0DC16EDC26A /* Pods_SwiftUi_CartoonList_SwiftUi_CartoonListUITests.framework */; };
+		25E0045A1F557A0B396537D7 /* Pods_SwiftUi_CartoonList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C11F05003A5CEFD3AC51048 /* Pods_SwiftUi_CartoonList.framework */; };
 		96B29DBB2B52C11500B530C4 /* SwiftUi_CartoonListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B29DBA2B52C11500B530C4 /* SwiftUi_CartoonListApp.swift */; };
 		96B29DBD2B52C11500B530C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B29DBC2B52C11500B530C4 /* ContentView.swift */; };
 		96B29DBF2B52C11700B530C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B29DBE2B52C11700B530C4 /* Assets.xcassets */; };
@@ -14,6 +17,7 @@
 		96B29DCC2B52C11800B530C4 /* SwiftUi_CartoonListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B29DCB2B52C11800B530C4 /* SwiftUi_CartoonListTests.swift */; };
 		96B29DD62B52C11800B530C4 /* SwiftUi_CartoonListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B29DD52B52C11800B530C4 /* SwiftUi_CartoonListUITests.swift */; };
 		96B29DD82B52C11800B530C4 /* SwiftUi_CartoonListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B29DD72B52C11800B530C4 /* SwiftUi_CartoonListUITestsLaunchTests.swift */; };
+		EB9F094C09D636A0F31086BD /* Pods_SwiftUi_CartoonListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05178E4C974935DF3250F85 /* Pods_SwiftUi_CartoonListTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		068435E82D7E1B4400D38508 /* Cartoon Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cartoon Card.swift"; sourceTree = "<group>"; };
+		1661BF7B5DD2DB0D1522BC1B /* Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests/Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests.release.xcconfig"; sourceTree = "<group>"; };
+		174E802B86F0CF11AC293B47 /* Pods-SwiftUi-CartoonListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUi-CartoonListTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUi-CartoonListTests/Pods-SwiftUi-CartoonListTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E50EB9434E8F0F44B0B68C8 /* Pods-SwiftUi-CartoonList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUi-CartoonList.release.xcconfig"; path = "Target Support Files/Pods-SwiftUi-CartoonList/Pods-SwiftUi-CartoonList.release.xcconfig"; sourceTree = "<group>"; };
+		8C11F05003A5CEFD3AC51048 /* Pods_SwiftUi_CartoonList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUi_CartoonList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9496110168D08940FED50A66 /* Pods-SwiftUi-CartoonListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUi-CartoonListTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUi-CartoonListTests/Pods-SwiftUi-CartoonListTests.debug.xcconfig"; sourceTree = "<group>"; };
 		96B29DB72B52C11500B530C4 /* SwiftUi-CartoonList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUi-CartoonList.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B29DBA2B52C11500B530C4 /* SwiftUi_CartoonListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUi_CartoonListApp.swift; sourceTree = "<group>"; };
 		96B29DBC2B52C11500B530C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +54,10 @@
 		96B29DD12B52C11800B530C4 /* SwiftUi-CartoonListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUi-CartoonListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B29DD52B52C11800B530C4 /* SwiftUi_CartoonListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUi_CartoonListUITests.swift; sourceTree = "<group>"; };
 		96B29DD72B52C11800B530C4 /* SwiftUi_CartoonListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUi_CartoonListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98C999A3116F01FC4F181FC9 /* Pods-SwiftUi-CartoonList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUi-CartoonList.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUi-CartoonList/Pods-SwiftUi-CartoonList.debug.xcconfig"; sourceTree = "<group>"; };
+		A05178E4C974935DF3250F85 /* Pods_SwiftUi_CartoonListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUi_CartoonListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEA86EEDD2DEBC2146E7303 /* Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests/Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9F40BF63A4DF0DC16EDC26A /* Pods_SwiftUi_CartoonList_SwiftUi_CartoonListUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUi_CartoonList_SwiftUi_CartoonListUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25E0045A1F557A0B396537D7 /* Pods_SwiftUi_CartoonList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB9F094C09D636A0F31086BD /* Pods_SwiftUi_CartoonListTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E53C8AC6514078A17B0CC8 /* Pods_SwiftUi_CartoonList_SwiftUi_CartoonListUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +95,8 @@
 				96B29DCA2B52C11800B530C4 /* SwiftUi-CartoonListTests */,
 				96B29DD42B52C11800B530C4 /* SwiftUi-CartoonListUITests */,
 				96B29DB82B52C11500B530C4 /* Products */,
+				B166DE4B7361D13DBAFEFBB8 /* Pods */,
+				B9E8B5C039C9811F60C49CB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +117,7 @@
 				96B29DBC2B52C11500B530C4 /* ContentView.swift */,
 				96B29DBE2B52C11700B530C4 /* Assets.xcassets */,
 				96B29DC02B52C11700B530C4 /* Preview Content */,
+				068435E82D7E1B4400D38508 /* Cartoon Card.swift */,
 			);
 			path = "SwiftUi-CartoonList";
 			sourceTree = "<group>";
@@ -127,6 +147,29 @@
 			path = "SwiftUi-CartoonListUITests";
 			sourceTree = "<group>";
 		};
+		B166DE4B7361D13DBAFEFBB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98C999A3116F01FC4F181FC9 /* Pods-SwiftUi-CartoonList.debug.xcconfig */,
+				2E50EB9434E8F0F44B0B68C8 /* Pods-SwiftUi-CartoonList.release.xcconfig */,
+				BEEA86EEDD2DEBC2146E7303 /* Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests.debug.xcconfig */,
+				1661BF7B5DD2DB0D1522BC1B /* Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests.release.xcconfig */,
+				9496110168D08940FED50A66 /* Pods-SwiftUi-CartoonListTests.debug.xcconfig */,
+				174E802B86F0CF11AC293B47 /* Pods-SwiftUi-CartoonListTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B9E8B5C039C9811F60C49CB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C11F05003A5CEFD3AC51048 /* Pods_SwiftUi_CartoonList.framework */,
+				D9F40BF63A4DF0DC16EDC26A /* Pods_SwiftUi_CartoonList_SwiftUi_CartoonListUITests.framework */,
+				A05178E4C974935DF3250F85 /* Pods_SwiftUi_CartoonListTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96B29DDB2B52C11800B530C4 /* Build configuration list for PBXNativeTarget "SwiftUi-CartoonList" */;
 			buildPhases = (
+				9DA25F8B84F6CEA5B7BBD864 /* [CP] Check Pods Manifest.lock */,
 				96B29DB32B52C11500B530C4 /* Sources */,
 				96B29DB42B52C11500B530C4 /* Frameworks */,
 				96B29DB52B52C11500B530C4 /* Resources */,
+				27CEB1308E0C99ACCC7C67E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96B29DDE2B52C11800B530C4 /* Build configuration list for PBXNativeTarget "SwiftUi-CartoonListTests" */;
 			buildPhases = (
+				0D888986BD92D219E77F70EC /* [CP] Check Pods Manifest.lock */,
 				96B29DC32B52C11800B530C4 /* Sources */,
 				96B29DC42B52C11800B530C4 /* Frameworks */,
 				96B29DC52B52C11800B530C4 /* Resources */,
@@ -169,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96B29DE12B52C11800B530C4 /* Build configuration list for PBXNativeTarget "SwiftUi-CartoonListUITests" */;
 			buildPhases = (
+				2E5E5ACA4B9605A77950D0CB /* [CP] Check Pods Manifest.lock */,
 				96B29DCD2B52C11800B530C4 /* Sources */,
 				96B29DCE2B52C11800B530C4 /* Frameworks */,
 				96B29DCF2B52C11800B530C4 /* Resources */,
+				FDFB985C1A8D8BB4D02595F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,12 +300,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D888986BD92D219E77F70EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUi-CartoonListTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27CEB1308E0C99ACCC7C67E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUi-CartoonList/Pods-SwiftUi-CartoonList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUi-CartoonList/Pods-SwiftUi-CartoonList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUi-CartoonList/Pods-SwiftUi-CartoonList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E5E5ACA4B9605A77950D0CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DA25F8B84F6CEA5B7BBD864 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUi-CartoonList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDFB985C1A8D8BB4D02595F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests/Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests/Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests/Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96B29DB32B52C11500B530C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				96B29DBD2B52C11500B530C4 /* ContentView.swift in Sources */,
+				068435E92D7E1B4400D38508 /* Cartoon Card.swift in Sources */,
 				96B29DBB2B52C11500B530C4 /* SwiftUi_CartoonListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,7 +484,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -395,7 +547,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -416,6 +568,7 @@
 		};
 		96B29DDC2B52C11800B530C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C999A3116F01FC4F181FC9 /* Pods-SwiftUi-CartoonList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,6 +598,7 @@
 		};
 		96B29DDD2B52C11800B530C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E50EB9434E8F0F44B0B68C8 /* Pods-SwiftUi-CartoonList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,6 +628,7 @@
 		};
 		96B29DDF2B52C11800B530C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9496110168D08940FED50A66 /* Pods-SwiftUi-CartoonListTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +649,7 @@
 		};
 		96B29DE02B52C11800B530C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 174E802B86F0CF11AC293B47 /* Pods-SwiftUi-CartoonListTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +670,7 @@
 		};
 		96B29DE22B52C11800B530C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEEA86EEDD2DEBC2146E7303 /* Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +689,7 @@
 		};
 		96B29DE32B52C11800B530C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1661BF7B5DD2DB0D1522BC1B /* Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
