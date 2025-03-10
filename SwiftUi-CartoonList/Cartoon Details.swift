@@ -8,11 +8,18 @@
 import SwiftUI
 
 struct Cartoon_Details: View {
+    
+    var cartoon : Cartoondata
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        ZStack {
+            
+            Color(UIColor(hex: "#f53b50") ?? .clear)
+                .edgesIgnoringSafeArea(.all) 
+        }
     }
 }
 
 #Preview {
-    Cartoon_Details()
+    Cartoon_Details(cartoon: Cartoondata.cartoonmodel[0])
 }

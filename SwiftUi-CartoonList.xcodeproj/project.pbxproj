@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		068435E92D7E1B4400D38508 /* Cartoon Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068435E82D7E1B4400D38508 /* Cartoon Card.swift */; };
+		06B34F3A2D7EBE67004A2761 /* Cartoon Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B34F392D7EBE67004A2761 /* Cartoon Details.swift */; };
 		07E53C8AC6514078A17B0CC8 /* Pods_SwiftUi_CartoonList_SwiftUi_CartoonListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F40BF63A4DF0DC16EDC26A /* Pods_SwiftUi_CartoonList_SwiftUi_CartoonListUITests.framework */; };
 		25E0045A1F557A0B396537D7 /* Pods_SwiftUi_CartoonList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C11F05003A5CEFD3AC51048 /* Pods_SwiftUi_CartoonList.framework */; };
 		96B29DBB2B52C11500B530C4 /* SwiftUi_CartoonListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B29DBA2B52C11500B530C4 /* SwiftUi_CartoonListApp.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		068435E82D7E1B4400D38508 /* Cartoon Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cartoon Card.swift"; sourceTree = "<group>"; };
+		06B34F392D7EBE67004A2761 /* Cartoon Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cartoon Details.swift"; sourceTree = "<group>"; };
 		1661BF7B5DD2DB0D1522BC1B /* Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests/Pods-SwiftUi-CartoonList-SwiftUi-CartoonListUITests.release.xcconfig"; sourceTree = "<group>"; };
 		174E802B86F0CF11AC293B47 /* Pods-SwiftUi-CartoonListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUi-CartoonListTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUi-CartoonListTests/Pods-SwiftUi-CartoonListTests.release.xcconfig"; sourceTree = "<group>"; };
 		2E50EB9434E8F0F44B0B68C8 /* Pods-SwiftUi-CartoonList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUi-CartoonList.release.xcconfig"; path = "Target Support Files/Pods-SwiftUi-CartoonList/Pods-SwiftUi-CartoonList.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				96B29DBE2B52C11700B530C4 /* Assets.xcassets */,
 				96B29DC02B52C11700B530C4 /* Preview Content */,
 				068435E82D7E1B4400D38508 /* Cartoon Card.swift */,
+				06B34F392D7EBE67004A2761 /* Cartoon Details.swift */,
 			);
 			path = "SwiftUi-CartoonList";
 			sourceTree = "<group>";
@@ -408,6 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06B34F3A2D7EBE67004A2761 /* Cartoon Details.swift in Sources */,
 				96B29DBD2B52C11500B530C4 /* ContentView.swift in Sources */,
 				068435E92D7E1B4400D38508 /* Cartoon Card.swift in Sources */,
 				96B29DBB2B52C11500B530C4 /* SwiftUi_CartoonListApp.swift in Sources */,
