@@ -38,32 +38,32 @@ struct Cartoondata : Identifiable {
 }
 
 struct ContentView: View {
+    
+    
+    
     var body: some View {
-        NavigationView {
+        NavigationStack {
                     ZStack {
                         Color(UIColor(hex: "#f53b50") ?? .clear)
                             .edgesIgnoringSafeArea(.all)
                         
                         List {
                             ForEach(Cartoondata.cartoonmodel) { cartoon in
-                                Cartoon_Card(cartoon: cartoon)
-                                    .padding(.top, 10)
-                                    .listRowBackground(Color.clear) 
-                                  
-
-
+                                NavigationLink(destination: Cartoon_Details(cartoon: cartoon)) {
+                                    Cartoon_Card(cartoon: cartoon)
+                                        .padding(.top, 10)
+                                }
+                                .listRowBackground(Color.clear)
                             }
                             .onDelete { idx in
                                 Cartoondata.cartoonmodel.remove(atOffsets: idx)
                             }
-                            
-                            
                         }
                         .scrollContentBackground(.hidden) // Hide default background
                         .background(Color.clear) // Ensure transparency
                         .listStyle(.inset)
                     }
-                    .navigationTitle("Cartoon")
+                    .navigationTitle("Cartoons")
                 }
     }
 }

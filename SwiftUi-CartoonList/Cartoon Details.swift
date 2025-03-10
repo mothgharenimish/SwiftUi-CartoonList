@@ -23,6 +23,7 @@ struct Cartoon_Details: View {
                     
                     Image(cartoon.cartoonImg!)
                         .resizable()
+                        .aspectRatio(1,contentMode: .fit)
                         .edgesIgnoringSafeArea(.top)
                     
                     Text(cartoon.cartoonname!)
@@ -44,7 +45,7 @@ struct Cartoon_Details: View {
                         .padding(.horizontal,15)
                         .foregroundStyle(.white)
                     
-                    Text(cartoon.cartoondescript!)
+                    Text(cartoon.cartoondescript ?? "")
                         .fontWeight(.medium)
                         .fontWeight(.bold)
                         .padding(.horizontal,15)
